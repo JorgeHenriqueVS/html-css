@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Media Query</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="menu">
+            <ul>
+                <li><a href="#">Esporte</a></li>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Turismo</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique expedita modi consequatur architecto labore a libero, pariatur facere, tenetur eius incidunt minima quam voluptatem impedit voluptatum deleniti ipsam iste esse! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus quisquam officiis deserunt culpa, earum dicta maiores voluptatibus at qui. Dignissimos, similique quas nisi ab magni recusandae tempora animi repellat.</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique expedita modi consequatur architecto labore a libero, pariatur facere, tenetur eius incidunt minima quam voluptatem impedit voluptatum deleniti ipsam iste esse! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus quisquam officiis deserunt culpa, earum dicta maiores voluptatibus at qui. Dignissimos, similique quas nisi ab magni recusandae tempora animi repellat.</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora quae voluptatem quis sequi, laudantium asperiores similique! Dolorum magnam unde quod, consequatur maxime recusandae ad dolor reiciendis, doloribus possimus eaque. Architecto?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if(menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
