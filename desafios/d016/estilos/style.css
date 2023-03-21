@@ -27,15 +27,15 @@ main {
 
 section#login {
     background-color: white;
-    height: 500px;
-    width: 250px;
+    height: 510px;
+    width: 265px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -51%);
     overflow: hidden;
 
     transition: width 0.7s, height 0.7s;
@@ -45,7 +45,7 @@ section#login {
 section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/build.jpg) no-repeat;
-    height: 230px;
+    height: 215px;
     background-size: cover;
     background-position: center center;
 }
@@ -57,9 +57,60 @@ section#login > div#formulario {
 
 div#formulario > h1 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 div#formulario > p {
+    font-size: 0.8em;
+}
+
+form > div.campo {
+    background-color: #5f2c82;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #2d1dd6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover, a.button:hover {
+    background-color: #0a3871;
+    color: white;
+    transform: scale(0.9);
+    transition: 0.5s all;
+}
+
+form > a.button {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    background-color: #dfe6ff;
+    border: solid #2d1dd6 1px;
+    border-radius: 5px;
+    margin-top: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+form > a.button > span {
     font-size: 0.8em;
 }
