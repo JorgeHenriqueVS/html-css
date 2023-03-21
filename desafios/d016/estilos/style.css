@@ -35,10 +35,10 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -51%);
     overflow: hidden;
 
-    transition: width 0.7s, height 0.7s;
+    transform: translate(-50%, -51%);
+    transition: width 0.6s, height 0.6s;
     transition-timing-function: ease;
 }
 
@@ -66,15 +66,38 @@ div#formulario > p {
 
 form > div.campo {
     background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 div.campo > label {
     display: none;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    height: 40px;
+    padding: 4px;
+}
+
+div.campo > input {
+    background-color: #dfe6ff;
+    font-size: 1em;
+    width: calc(100% - 44.5px);
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-10.5px);
+}
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {
@@ -85,15 +108,8 @@ form > input[type=submit] {
     background-color: #2d1dd6;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-}
-
-form > input[type=submit]:hover, a.button:hover {
-    background-color: #0a3871;
-    color: white;
-    transform: scale(0.9);
-    transition: 0.5s all;
 }
 
 form > a.button {
@@ -105,7 +121,7 @@ form > a.button {
     padding-top: 7px;
     background-color: #dfe6ff;
     border: solid #2d1dd6 1px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-top: 6px;
     cursor: pointer;
     text-decoration: none;

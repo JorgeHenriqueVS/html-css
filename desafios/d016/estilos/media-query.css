@@ -19,6 +19,7 @@ Grandes telas: acima de 1200px
     
     section#login {
         width: 80%;
+        height: 290px;
     }
 
     section#login > div#imagem {
@@ -31,6 +32,17 @@ Grandes telas: acima de 1200px
         float: right;
         width: 65%;
     }
+
+    div.campo > input {
+        transform: translateY(-10.9px);
+    }
+
+    form > input[type=submit]:hover, a.button:hover {
+        background-color: #0a3871;
+        color: white;
+        transform: scale(0.9);
+        transition: 0.6s all;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -42,6 +54,7 @@ Grandes telas: acima de 1200px
     
     section#login {
         width: 910px;
+        height: 330px;
     }
 
     section#login > div#imagem {
@@ -60,6 +73,14 @@ Grandes telas: acima de 1200px
     }
     
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 10px 0px;
+    }
+
+    form > input[type=submit]:hover, a.button:hover {
+        background-color: #0a3871;
+        color: white;
+        transform: scale(0.9);
+        transition: 0.6s all;
     }
 }
