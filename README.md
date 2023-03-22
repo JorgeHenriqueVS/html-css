@@ -16,6 +16,7 @@ O Curso de HTML5 e CSS3 ensina como criar sites usando a linguagem de marcação
 
 - Site [História do Android](https://jorgehenriquevs.github.io/html-css/desafios/d010/)
 - Site [Cordel](https://jorgehenriquevs.github.io/html-css/desafios/d012/)
+- Site [Media Query](https://jorgehenriquevs.github.io/html-css/desafios/d016/)
 
 ## Tecnologias Usadas
 
