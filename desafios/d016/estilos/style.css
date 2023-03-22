@@ -93,11 +93,12 @@ div.campo > input {
     border: none;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-12px);
+    transform: translateY(-10.5px);
 }
 
 div.campo > input:focus-within {
     background-color: white;
+    outline: none;
 }
 
 form > input[type=submit] {
